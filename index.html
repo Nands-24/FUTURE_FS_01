@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nandhini Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="logo">Portfolio</div>
+
+    <nav>
+
+      <a href="#home">Home</a>
+
+      <a href="#about">About</a>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+  </header>
+
+  <!-- HERO SECTION -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+
+      <h3>Hello, It's Me</h3>
+
+      <h1>Nandhini H</h1>
+
+      <h2>Full Stack Developer</h2>
+
+      <p>
+
+        Motivated engineering student specializing in Machine Learning,
+        Artificial Intelligence, Full Stack Development and Data Analysis.
+        Passionate about building real-world AI based automation projects.
+
+      </p>
+
+      <div class="social-icons">
+
+        <a href="#">🌐</a>
+
+        <a href="#">💻</a>
+
+        <a href="#">📧</a>
+
+        <a href="#">🔗</a>
+
+      </div>
+
+      <button>Download CV</button>
+
+    </div>
+
+    <div class="hero-image">
+
+      <div class="circle"></div>
+
+      <img src="https://i.imgur.com/QIrZWGIs.jpg" alt="profile">
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT SECTION -->
+
+  <section class="about" id="about">
+
+    <!-- LEFT SIDE -->
+
+    <div class="side-menu">
+
+      <h1 class="left-title">Why Hire Me?</h1>
+
+      <button class="tab-btn active-btn"
+        onclick="showTab('experienceTab', this)">
+        Experience
+      </button>
+
+      <button class="tab-btn"
+        onclick="showTab('educationTab', this)">
+        Education
+      </button>
+
+      <button class="tab-btn"
+        onclick="showTab('skillsTab', this)">
+        Skills
+      </button>
+
+      <button class="tab-btn"
+        onclick="showTab('aboutTab', this)">
+        About Me
+      </button>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+
+    <div class="about-content">
+
+      <!-- EXPERIENCE -->
+
+      <div class="tab-content active-tab" id="experienceTab">
+
+        <h2>Professional Experience</h2>
+
+        <p class="top-text">
+
+          Passionate AI & Data Science student with strong interest in
+          Full Stack Development, Machine Learning, Artificial Intelligence
+          and Data Analytics.
+
+        </p>
+
+        <div class="mini-card">
+
+          <h3>Pantech e-Learning</h3>
+
+          <p>Full Stack Web Development</p>
+
+        </div>
+
+        <div class="mini-card">
+
+          <h3>CSC</h3>
+
+          <p>Advanced Diploma in Java Programming</p>
+
+        </div>
+
+        <div class="mini-card">
+
+          <h3>AI & ML Projects</h3>
+
+          <p>
+
+            AI Health Diagnose, Flood Risk Prediction,
+            Diabetes Prediction & Customer Churn Prediction.
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- EDUCATION -->
+
+      <div class="tab-content" id="educationTab">
+
+        <h2>Education</h2>
+
+        <p class="top-text">
+
+          My educational background and academic journey.
+
+        </p>
+
+        <div class="mini-card">
+
+          <h3>B.Tech Artificial Intelligence & Data Science</h3>
+
+          <p>Karpagam Academy of Higher Education</p>
+
+          <span>CGPA : 7.69</span>
+
+        </div>
+
+        <div class="mini-card">
+
+          <h3>HSC</h3>
+
+          <p>Presentation Convent Matric Hr Sec School</p>
+
+          <span>83%</span>
+
+        </div>
+
+        <div class="mini-card">
+
+          <h3>SSLC</h3>
+
+          <p>Presentation Convent Matric Hr Sec School</p>
+
+          <span>69.5%</span>
+
+        </div>
+
+      </div>
+
+      <!-- SKILLS -->
+
+      <div class="tab-content" id="skillsTab">
+
+        <h2>Skills</h2>
+
+        <p class="top-text">
+
+          Technical skills and tools I work with.
+
+        </p>
+
+        <div class="skill-icons">
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
+
+          <img src="https://pandas.pydata.org/static/img/pandas_mark.svg">
+
+        </div>
+
+      </div>
+
+      <!-- ABOUT ME -->
+
+      <div class="tab-content" id="aboutTab">
+
+        <h2>About Me</h2>
+
+        <p class="top-text">
+
+          I am a passionate and enthusiastic AI & Data Science student
+          with strong interest in Machine Learning, Artificial Intelligence,
+          Full Stack Development and Data Analytics.
+
+        </p>
+
+        <div class="details">
+
+          <div>
+
+            <span>Name :</span>
+
+            <p>Nandhini H</p>
+
+          </div>
+
+          <div>
+
+            <span>Country :</span>
+
+            <p>India</p>
+
+          </div>
+
+          <div>
+
+            <span>Education :</span>
+
+            <p>B.Tech AI & DS</p>
+
+          </div>
+
+          <div>
+
+            <span>Experience :</span>
+
+            <p>AI & Full Stack Projects</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+
+  <section class="projects" id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+      <div class="project-card">
+
+        <h3>AI Health Diagnose</h3>
+
+        <p>
+
+          Multi-model AI Agent for automated health diagnostics and disease detection.
+
+        </p>
+
+      </div>
+
+      <div class="project-card">
+
+        <h3>Flood Risk Prediction</h3>
+
+        <p>
+
+          Machine learning system to predict flood risk using rainfall and river data.
+
+        </p>
+
+      </div>
+
+      <div class="project-card">
+
+        <h3>Diabetes Prediction System</h3>
+
+        <p>
+
+          Predicts diabetes risk using Random Forest algorithm and health data.
+
+        </p>
+
+      </div>
+
+      <div class="project-card">
+
+        <h3>Customer Churn Prediction</h3>
+
+        <p>
+
+          ML project to identify customers likely to stop using services.
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+
+  <section class="contact" id="contact">
+
+    <div class="contact-box">
+
+      <h2>Contact Me</h2>
+
+      <input type="text" placeholder="Your Name">
+
+      <input type="email" placeholder="Your Email">
+
+      <input type="text" placeholder="Phone Number">
+
+      <textarea placeholder="Message"></textarea>
+
+      <button>Send Message</button>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
