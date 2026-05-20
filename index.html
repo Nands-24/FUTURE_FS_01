@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+
   <title>Nandhini Portfolio</title>
 
   <link rel="stylesheet" href="style.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -29,6 +35,8 @@
 
       <a href="#projects">Projects</a>
 
+      <a href="#achievements">Achievements</a>
+
       <a href="#contact">Contact</a>
 
     </nav>
@@ -45,29 +53,31 @@
 
       <h1>Nandhini H</h1>
 
-      <h2>Full Stack Developer</h2>
-
+<h2>
+   I'm a
+   <span class="typing"></span>
+</h2>
       <p>
 
-        Motivated engineering student specializing in Machine Learning,
-        Artificial Intelligence, Full Stack Development and Data Analysis.
-        Passionate about building real-world AI based automation projects.
+        Passionate Full Stack Developer skilled in building modern,
+        responsive, and user-friendly web applications.
+        Interested in creating innovative digital solutions
+        with clean design and smooth user experience.
 
       </p>
 
       <div class="social-icons">
 
-        <a href="#">🌐</a>
+        <a href="https://github.com/Nands-24">💻</a>
 
-        <a href="#">💻</a>
+        <a href="mailto:nandhini.hillsingh@gmail.com">📧</a>
 
-        <a href="#">📧</a>
-
-        <a href="#">🔗</a>
+        <a href="https://www.linkedin.com/in/nandhini-h-58670533b?utm_source=share_via&utm_content=profile&utm_medium=member_android">🔗</a>
 
       </div>
-
+<a href="resume.pdf"download>
       <button>Download CV</button>
+      </a>
 
     </div>
 
@@ -75,7 +85,8 @@
 
       <div class="circle"></div>
 
-      <img src="https://i.imgur.com/QIrZWGIs.jpg" alt="profile">
+      <img src="images/profile.jpeg"
+           alt="profile">
 
     </div>
 
@@ -91,24 +102,41 @@
 
       <h1 class="left-title">Why Hire Me?</h1>
 
+      <p class="hire-text">
+
+        Quick learner with problem-solving ability
+        and hands-on experience in ML-based projects.
+        Dedicated to building innovative digital solutions
+        with clean UI and smooth user experience.
+
+      </p>
+
       <button class="tab-btn active-btn"
-        onclick="showTab('experienceTab', this)">
+              onclick="showTab('experienceTab', this)">
+
         Experience
+
       </button>
 
       <button class="tab-btn"
-        onclick="showTab('educationTab', this)">
+              onclick="showTab('educationTab', this)">
+
         Education
+
       </button>
 
       <button class="tab-btn"
-        onclick="showTab('skillsTab', this)">
+              onclick="showTab('skillsTab', this)">
+
         Skills
+
       </button>
 
       <button class="tab-btn"
-        onclick="showTab('aboutTab', this)">
+              onclick="showTab('aboutTab', this)">
+
         About Me
+
       </button>
 
     </div>
@@ -119,15 +147,16 @@
 
       <!-- EXPERIENCE -->
 
-      <div class="tab-content active-tab" id="experienceTab">
+      <div class="tab-content active-tab"
+           id="experienceTab">
 
         <h2>Professional Experience</h2>
 
         <p class="top-text">
 
-          Passionate AI & Data Science student with strong interest in
-          Full Stack Development, Machine Learning, Artificial Intelligence
-          and Data Analytics.
+          Passionate Full Stack Developer with
+          hands-on experience in modern web development,
+          ML-based applications, and responsive UI design.
 
         </p>
 
@@ -149,7 +178,7 @@
 
         <div class="mini-card">
 
-          <h3>AI & ML Projects</h3>
+          <h3>ML Projects</h3>
 
           <p>
 
@@ -164,7 +193,8 @@
 
       <!-- EDUCATION -->
 
-      <div class="tab-content" id="educationTab">
+      <div class="tab-content"
+           id="educationTab">
 
         <h2>Education</h2>
 
@@ -208,7 +238,8 @@
 
       <!-- SKILLS -->
 
-      <div class="tab-content" id="skillsTab">
+      <div class="tab-content"
+           id="skillsTab">
 
         <h2>Skills</h2>
 
@@ -218,74 +249,87 @@
 
         </p>
 
-        <div class="skill-icons">
+        <div class="skills-grid">
 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+            <p>Python</p>
+          </div>
 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+            <p>Java</p>
+          </div>
 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+            <p>HTML</p>
+          </div>
 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+            <p>CSS</p>
+          </div>
 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+            <p>JavaScript</p>
+          </div>
 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+            <p>MySQL</p>
+          </div>
 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
+            <p>Numpy</p>
+          </div>
 
-          <img src="https://pandas.pydata.org/static/img/pandas_mark.svg">
+          <div class="skill-card">
+            <img src="https://pandas.pydata.org/static/img/pandas_mark.svg">
+            <p>Pandas</p>
+          </div>
 
         </div>
 
       </div>
 
-      <!-- ABOUT ME -->
+      <!-- ABOUT -->
 
-      <div class="tab-content" id="aboutTab">
+      <div class="tab-content"
+           id="aboutTab">
 
         <h2>About Me</h2>
 
         <p class="top-text">
 
-          I am a passionate and enthusiastic AI & Data Science student
-          with strong interest in Machine Learning, Artificial Intelligence,
-          Full Stack Development and Data Analytics.
+          I am a passionate Full Stack Developer
+          with strong interest in creating modern,
+          responsive, and user-friendly applications.
 
         </p>
 
         <div class="details">
 
           <div>
-
             <span>Name :</span>
-
             <p>Nandhini H</p>
-
           </div>
 
           <div>
-
             <span>Country :</span>
-
             <p>India</p>
-
           </div>
 
           <div>
-
             <span>Education :</span>
-
             <p>B.Tech AI & DS</p>
-
           </div>
 
           <div>
-
             <span>Experience :</span>
-
-            <p>AI & Full Stack Projects</p>
-
+            <p>ML & Full Stack Projects</p>
           </div>
 
         </div>
@@ -298,58 +342,138 @@
 
   <!-- PROJECTS -->
 
-  <section class="projects" id="projects">
+  <!-- PROJECTS -->
 
-    <h2>Projects</h2>
+<section class="projects" id="projects">
 
-    <div class="project-container">
+  <h2>Projects</h2>
 
-      <div class="project-card">
+  <div class="project-container">
 
-        <h3>AI Health Diagnose</h3>
+    <!-- PROJECT 1 -->
 
+    <div class="project-card">
+
+      <div class="achievement-icon">🏥</div>
+
+      <h3>AI Health Diagnose</h3>
+
+      <p>
+        Multi-model AI Agent for automated
+        health diagnostics and disease detection.
+      </p>
+
+    </div>
+
+    <!-- PROJECT 2 -->
+
+    <div class="project-card">
+
+      <div class="achievement-icon">🌊</div>
+
+      <h3>Flood Risk Prediction</h3>
+
+      <p>
+        Machine learning system to predict
+        flood risk using rainfall and river data.
+      </p>
+
+    </div>
+
+    <!-- PROJECT 3 -->
+
+    <div class="project-card">
+
+      <div class="achievement-icon">🩺</div>
+
+      <h3>Diabetes Prediction System</h3>
+
+      <p>
+        Predicts diabetes risk using
+        Random Forest algorithm and health data.
+      </p>
+
+    </div>
+
+    <!-- PROJECT 4 -->
+
+    <div class="project-card">
+
+      <div class="achievement-icon">👥</div>
+
+      <h3>Customer Churn Prediction</h3>
+
+      <p>
+        ML project to identify customers
+        likely to stop using services.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- ACHIEVEMENTS -->
+
+  <section class="achievements" id="achievements">
+
+    <h2>Achievements</h2>
+
+    <div class="achievement-container">
+
+      <div class="achievement-card">
+        <div class="achievement-icon">🏆</div>
+        <h3>HackImpact 2025</h3>
         <p>
-
-          Multi-model AI Agent for automated health diagnostics and disease detection.
-
+          Final Round Shortlisted in HackImpact 2025
+          for innovative technical project presentation.
         </p>
-
       </div>
 
-      <div class="project-card">
-
-        <h3>Flood Risk Prediction</h3>
-
+      <div class="achievement-card">
+        <div class="achievement-icon">☕</div>
+        <h3>Java Programming</h3>
         <p>
-
-          Machine learning system to predict flood risk using rainfall and river data.
-
+          Successfully completed Advanced Diploma
+          in Java Programming at CSC.
         </p>
-
       </div>
 
-      <div class="project-card">
-
-        <h3>Diabetes Prediction System</h3>
-
+      <div class="achievement-card">
+        <div class="achievement-icon">🤖</div>
+        <h3>AI Microcontroller</h3>
         <p>
-
-          Predicts diabetes risk using Random Forest algorithm and health data.
-
+          Completed Artificial Intelligence using
+          Microcontroller Skill Development Program.
         </p>
-
       </div>
 
-      <div class="project-card">
-
-        <h3>Customer Churn Prediction</h3>
-
+      <div class="achievement-card">
+        <div class="achievement-icon">💻</div>
+        <h3>Full Stack Development</h3>
         <p>
-
-          ML project to identify customers likely to stop using services.
-
+          Completed Full Stack Web Development
+          training at Pantech e-Learning.
         </p>
+      </div>
 
+      <div class="achievement-card">
+        <div class="achievement-icon">📊</div>
+        <h3>R Language</h3>
+        <p>
+          Successfully completed R Programming
+          certification for data analytics.
+        </p>
+      </div>
+
+      <div class="achievement-card">
+        <div class="achievement-icon">⭐</div>
+        <h3>Academic Excellence</h3>
+        <p>
+          Maintained strong academic performance
+          in Artificial Intelligence & Data Science.
+        </p>
       </div>
 
     </div>
@@ -364,11 +488,14 @@
 
       <h2>Contact Me</h2>
 
-      <input type="text" placeholder="Your Name">
+      <input type="text"
+             placeholder="Your Name">
 
-      <input type="email" placeholder="Your Email">
+      <input type="email"
+             placeholder="Your Email">
 
-      <input type="text" placeholder="Phone Number">
+      <input type="text"
+             placeholder="Phone Number">
 
       <textarea placeholder="Message"></textarea>
 
